@@ -149,7 +149,7 @@ The resulting long-format table contains one row per sample and cell population.
 
 ### Part 3: Miraclib Response Analysis
 
-The response analysis focuses on baseline (`time_from_treatment_start = 0`) PBMC samples from melanoma patients receiving miraclib. Day 0 samples were selected because the objective is to investigate whether cell population frequencies present before treatment are associated with subsequent treatment response.
+The response analysis focuses on baseline (`time_from_treatment_start = 0`) PBMC samples from melanoma patients receiving miraclib. Day (or time) 0 samples were selected because the objective is to investigate whether cell population frequencies present before treatment are associated with subsequent treatment response.
 
 Relative cell frequencies are compared between responders and non-responders using two-sided Mann–Whitney U tests. Five cell populations are tested, and Benjamini–Hochberg false discovery rate correction is applied to account for multiple comparisons. The distributions are visualized using boxplots.
 
